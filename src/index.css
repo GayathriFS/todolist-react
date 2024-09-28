@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  
+  background-color: #fff5f5;
+}
+
+/* Todo App Container */
+
+.todo-container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+
+  background: linear-gradient(to bottom, #ffecd2, #fff);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+
+
+}
+
+/* Todo Header */
+
+.todo-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  
+
+  background: linear-gradient(to right, #ffc5c5, #ffd7d7);
+  padding: 10px;
+  border-radius: 10px 10px 0 0;
+
+
+}
+
+.todo-header h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Input Field */
+
+.input-field {
+  width: 80%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+ 
+  background: linear-gradient(to bottom, #f0f0f0, #fff);
+
+}
+
+/* Add Button */
+
+.add-btn {
+
+
+  padding: 10px;
+  border: none;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+
+  background: linear-gradient(to right, #ffc5c5, #ffd7d7);
+  color: black
+}
+
+.add-btn:hover {
+  background-color: #3e8e41;
+}
+
+/* Todo List */
+
+.todo-list {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.todo-list li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.todo-list li:last-child {
+  border-bottom: none;
+}
+
+.todo-list li:hover {
+  background-color: #f5f5f5;
+}
+
+/* Delete Button */
+
+.delete-btn {
+ 
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  float: right;
+
+  background: linear-gradient(to right, #ff6666, #ff9999);
+  color: #fff;
+}
+
+.delete-btn:hover {
+  background-color: #e91e63;
+}
+
+/* Checked Todo */
+
+.checked {
+  text-decoration: line-through;
+  color: #666;
+}
